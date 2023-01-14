@@ -44,6 +44,8 @@ nav{
     color: #131313;
 }
 .header-top p{
+    font-weight: 400;
+    color: #727272;
     margin: 0px 300px 30px 300px;
 }
 .header-bottom{
@@ -77,10 +79,23 @@ nav{
     nav {
         display: flex;
         flex-direction: column;
+        margin-left: 50px;
+        margin-right: 50px;
     }
     .menu{
         display: flex;
         flex-direction: column;
+    }
+    .header-top{
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .header-top h1{
+        margin: 5px 0px 20px 5px;
+        font-size: 40px;
+    }
+    .header-top p{
+        margin: 0px 5px 20px 5px;
     }
     
 }
