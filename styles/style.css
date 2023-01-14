@@ -1,8 +1,11 @@
 /* Common Styles */
 *{
     margin: 0px;
+    font-family: 'Work Sans';
 }
-/* header */
+/* font  */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600;700&display=swap');
+/* full header */
 header{
     background: rgba(255, 144, 14, 0.1);
 }
@@ -26,8 +29,56 @@ nav{
     margin-right: 16px;
 }
 
+/* header main part */
+.header-top{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    /* margin: 100px 500px 30px 500px; */
+}
+.header-top h1{
+    margin: 0px 400px 20px 400px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    color: #131313;
+}
+.header-top p{
+    margin: 0px 300px 30px 300px;
+}
+.header-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.header-img{
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+/* primary button style */
+.primary-btn{
+    color: #FFFFFF;
+    background: #FF900E;
+    border: none;
+    height: 50px;
+    width: 150px;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+/* Media Query */
 @media only screen and (max-width:576px) {
-    nav{
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+    .menu{
         display: flex;
         flex-direction: column;
     }
