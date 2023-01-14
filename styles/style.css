@@ -1,0 +1,23 @@
+/* Common Styles */
+*{
+    margin: 0px;
+}
+/* header */
+header{
+    background: rgba(255, 144, 14, 0.1);
+}
+
+/* Nav Bar */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+/* menu */
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
