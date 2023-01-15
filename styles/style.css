@@ -126,7 +126,77 @@ main{
     margin-bottom: 20px;
 }
 
+/* features you will love section  */
+.features-love-container{
+    display: flex;
+}
+/* features you love section all text styles */
+.features-love-text{
+    flex: 1 1 0;
+    margin-right: 30px;
+}
+.header-and-paragraph-container{
+    margin-bottom: 30px;
+}
+.features-love-header{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    border-left: 5px solid #FF900E;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.features-love-header-paragraph{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #727272;
+}
 
+.features-love-btn{
+    flex: 1 1 0;
+    background-image: url(../images/architect.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+
+/* .features-love-img img{
+    width: 100%;
+} */
+
+/* love enjoy bottom part  */
+.love-enjoy-section{
+    margin: 30px;
+}
+.love-enjoy-section h3{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #131313;
+}
+.love-enjoy-section p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #727272;
+}
+
+/* big btn  */
+.big-btn{
+    width: 200px;
+    height: 120px;
+    text-align: center;
+    align-self: flex-end;
+}
+.big-text-btn{
+    font-weight: 600;
+    font-size: 45px;
+}
+.small-text-btn{
+    font-weight: 500;
+    font-size: 25px;
+}
 
 
 /* Media Query */
