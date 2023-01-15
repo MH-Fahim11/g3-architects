@@ -164,7 +164,8 @@ main{
 
 /* love enjoy bottom part  */
 .love-enjoy-section{
-    margin: 30px;
+    padding: 20px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
 }
 .love-enjoy-section h3{
     font-weight: 600;
@@ -189,6 +190,7 @@ main{
     height: 120px;
     text-align: center;
     margin-top: -100px;
+    margin-left: -30px;
 }
 .big-text-btn{
     font-weight: 600;
