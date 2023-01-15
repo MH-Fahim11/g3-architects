@@ -197,6 +197,7 @@ main{
 /* some-facts-part  */
 .some-facts-container{
     margin-top: 70px;
+    margin-bottom: 100px;
 }
 .some-facts-header{
     margin-bottom: 50px;
@@ -215,7 +216,6 @@ main{
 .some-facts-items{
     display: flex;
     justify-content: space-between;
-
 }
 
 .item{
@@ -235,9 +235,12 @@ main{
     font-size: 18px;
 }
 
-.item:hover{
-    background-color: #3e8e41;
-   color: white;
+.item:hover {
+    transform: scale(1.5);
+    transition: all .6s ease-out;
+    background-color: #FF900E;
+    border: 1px solid rgba(60, 57, 50, 0.26);
+    box-shadow: 10px 5px 5px #c2761fc3;
 }
 
 /* --------------
@@ -301,5 +304,21 @@ main{
         margin: 0px;
         
     }
+    /* some-facts-part  */
+    .some-facts-items{
+        display: flex;
+        flex-direction: column;
+    }
+    .item{
+        margin-bottom: 30px;
+    }
+    .item:hover {
+        transform: scale(1.2);
+        /* transition: all .6s ease-out;
+        background-color: #FF900E;
+        border: 1px solid rgba(60, 57, 50, 0.26);
+        box-shadow: 10px 5px 5px #c2761fc3; */
+    }
+
     
 }
