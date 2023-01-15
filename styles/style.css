@@ -5,13 +5,13 @@
 }
 /* font  */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600;700&display=swap');
+
 /* full header */
 header{
     background: rgba(255, 144, 14, 0.1);
 }
 
 /* Nav Bar */
-
 nav{
     display: flex;
     justify-content: space-between;
@@ -20,12 +20,15 @@ nav{
     margin-right: 100px;
     padding-top: 20px;
 }
-/* menu */
+.glow-text{
+    color: #FF900E;
+}
+
+/* menu styles*/
 .menu{
     display: flex;
     justify-content: space-between;
 }
-
 .menu-item{
     margin-right: 16px;
 }
@@ -212,12 +215,11 @@ main{
     font-size: 16px;
     color: #727272;
 }
-
+/* all items  */
 .some-facts-items{
     display: flex;
     justify-content: space-between;
 }
-
 .item{
     border: 1px solid #FF900E;
     border-radius: 8px;
@@ -226,10 +228,6 @@ main{
     flex-direction: column;
     align-items: center;
 }
-/* .item img{
-    width: 80%;
-    height: 100px;
-} */
 .item h3{
     font-weight: 600;
     font-size: 35px;
@@ -238,8 +236,6 @@ main{
 .item p{
     font-size: 18px;
 }
-
-
 .item:hover {
     transform: scale(1.5);
     transition: all .6s ease-out;
@@ -247,6 +243,7 @@ main{
     border: 1px solid rgba(141, 128, 99, 0.26);
     box-shadow: 10px 5px 5px #c2761fc3;
 }
+
 /* bonus section styles */
 
 .bonus-header{
@@ -261,6 +258,7 @@ main{
 .bonus-header p{
     color: #727272;
 }
+/* bonus section projects style  */
 .projects{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -306,6 +304,7 @@ main{
 .lw-text{
     color: #727272;
 }
+
 /* Sponsors section  */
 
 .sponsors-container{
@@ -333,6 +332,7 @@ main{
     width: 70%;
     filter: grayscale(100%);
 }
+
 /* footer serction  */
 footer{
     background: #FFF4E7;
@@ -413,7 +413,7 @@ footer{
         align-items: center;
     }
     .big-btn{
-        margin: 0px;
+        margin: 5px 0px 0px 0px;
         
     }
     /* some-facts-part  */
@@ -433,12 +433,6 @@ footer{
         display: flex;
         flex-direction: column;
     }
-    /* .project{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
-    } */
 
 /* Sponsors section  */
     .sponsor{
