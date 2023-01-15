@@ -243,8 +243,8 @@ main{
 .item:hover {
     transform: scale(1.5);
     transition: all .6s ease-out;
-    background-color: #d68d27bc;
-    border: 1px solid rgba(60, 57, 50, 0.26);
+    background-color: #FF900E;
+    border: 1px solid rgba(141, 128, 99, 0.26);
     box-shadow: 10px 5px 5px #c2761fc3;
 }
 /* bonus section styles */
@@ -418,14 +418,15 @@ footer{
     }
     /* some-facts-part  */
     .some-facts-items{
-        display: flex;
+        margin-left: 10px;
+        margin-right: 10px;
         flex-direction: column;
     }
     .item{
         margin-bottom: 30px;
     }
     .item:hover {
-        transform: scale(1.2);
+        transform: scale(1.1);
     }
     /* bonus */
     .projects{
