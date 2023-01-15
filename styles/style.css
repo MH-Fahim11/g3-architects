@@ -378,6 +378,13 @@ footer{
         margin: 0px 5px 20px 5px;
     }
 
+    /* primary buttons response */
+    .primary-btn{
+        height: 50px;
+        width: 150px;
+        font-size: 18px;
+    }
+
     /* main  */
     main{
         margin-left: 6%;
