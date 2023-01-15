@@ -247,10 +247,67 @@ main{
     border: 1px solid rgba(60, 57, 50, 0.26);
     box-shadow: 10px 5px 5px #c2761fc3;
 }
+/* bonus section styles */
+
+.bonus-header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.bonus-header h1{
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 10px ;
+}
+.bonus-header p{
+    color: #727272;
+}
+.projects{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+.project{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
+}
+
+.project img{
+    width: 250px;
+    height: 180px;
+    border-radius: 5px;
+}
+.project h3{
+    font-weight: 600;
+    font-size: 28px;
+    color: #18191F;
+    margin-bottom: 10px ;
+}
+.project p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.project-footer{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.project-footer p{
+    font-size: 14px;
+    color: #131313;
+}
+.sp-text{
+    color: #FF900E;
+}
+.lw-text{
+    color: #727272;
+}
 /* Sponsors section  */
 
 .sponsors-container{
     text-align: center;
+    margin-top: 100px;
 }
 .sponsors-text{
     margin-bottom: 30px;
@@ -285,8 +342,9 @@ footer{
     font-weight: 400;
     font-size: 20px;
     text-align: center;
-    color: #424242
+    color: #424242;
 }
+
 
 /* --------------
     Media Query 
@@ -360,6 +418,12 @@ footer{
     .item:hover {
         transform: scale(1.2);
     }
+    /* bonus */
+    .projects{
+        display: flex;
+        flex-direction: column;
+    }
+
 /* Sponsors section  */
     .sponsor{
         display: flex;
@@ -367,5 +431,8 @@ footer{
     }
     .sponsor-img{
         margin: 20px;
+    }
+    footer{
+        padding-bottom: 20px;
     }
 }
