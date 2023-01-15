@@ -273,6 +273,21 @@ main{
     width: 70%;
     filter: grayscale(100%);
 }
+/* footer serction  */
+footer{
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin: 100px 10% 100px 10%;
+    height: 60px;
+}
+.footer-text{
+    padding-top: 15px;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #424242
+}
+
 /* --------------
     Media Query 
 ------------------*/
